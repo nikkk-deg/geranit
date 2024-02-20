@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/Roboto/Roboto-Bold.ttf) format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+.header-class {
+  height: 200px;
+}
+
+.header-link-class {
+}
+.header-info-class {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 70px;
+  margin-top: -270px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-title-logo-class {
+  position: relative;
+  width: 300px;
+  top: -60px;
+  left: -20px;
+}
+
+.links-class {
+  width: max-content;
+  display: inline-block;
+  margin-left: 40px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.links-box-class {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

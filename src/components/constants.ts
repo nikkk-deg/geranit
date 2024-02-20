@@ -1,0 +1,27 @@
+export const CLASS_MAIN_CONTENT = "main-content";
+export const CLASS_FOOTER = "footer-class";
+export const TXT_FOOTER1 = "2024";
+export const TXT_FOOTER2 = "ГЕРАНИТ";
+export const CLASS_FOOTER_TITLE = "class-footer-title";
+export const CLASS_SLOGAN = "class-slogan";
+export const CLASS_SLOGAN_TITLE1 = "class-slogan-title1";
+export const CLASS_SLOGAN_TITLE2 = "class-slogan-title2";
+export const SLOGAN_TITLE1 = "РОССИЙСКИЙ ПРОИЗВОДИТЕЛЬ ИТ-ОБОРУДОВАНИЯ";
+export const SLOGAN_TITLE2 = "ГЕРАНИТ";
+export const SLOGAN_TITLE3 =
+  "Создаем современные и эффективные решения обеспечивающие";
+export const SLOGAN_TITLE4 = "комплексный подход к построению сетевой";
+export const SLOGAN_TITLE5 = "инфраструктуры";
+export const CLASS_CHIPS1 = "class-chips1";
+export const CLASS_CHIPS2 = "class-chips2";
+export const CLASS_ICON_CHIPS = "class-icon-chips";
+export const CLASS_CHIPS_BOX1 = "class-chips-box1";
+export const CLASS_CHIPS_BOX2 = "class-chips-box2";
+export const CLASS_CHIPS_TITLE = "class-chips-title";
+export const CHIPS_TITLE1 = "Российский бренд";
+export const CHIPS_TITLE2 = "Поддержка клиентов";
+export const CHIPS_TITLE3 = "Свой обширный склад";
+export const CHIPS_TITLE4 = "Фиксированные цены в рублях";
+export const CHIPS_TITLE5 = "Отличные условия для сотрудничества";
+export const CHIPS_TITLE6 = "Предсказуемые сроки производства";
+export const CLASS_CHIPS_MAIN = "class-chips-main";
