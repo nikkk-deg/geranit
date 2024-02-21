@@ -1,0 +1,59 @@
+.class-footer-title-txt {
+  position: relative;
+  top: -10px;
+  font-size: xxx-large;
+  left: 40px;
+}
+.class-footer-call {
+  /* top: px; */
+  left: 20px;
+  position: relative;
+  font-size: x-large;
+}
+.class-footer-call-txt {
+  position: relative;
+  top: -27px;
+  left: 190px;
+  font-size: x-large;
+}
+.class-footer-write {
+  /* top: -30px; */
+  left: 20px;
+  position: relative;
+  font-size: x-large;
+}
+.class-class-footer-title-txt {
+  position: relative;
+  top: -27px;
+  left: 180px;
+  font-size: x-large;
+}
+.footer-class {
+  /* margin-top: 50px; */
+  color: aliceblue;
+
+  background: url(/img/footerBack2.png) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  /* width: 100%;
+      height: 80px; */
+}
+.class-footer-title {
+  width: max-content;
+  margin: auto;
+  position: relative;
+  top: 160px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  .footer-class {
+    font-size: medium;
+    width: 500px;
+    left: 0;
+    bottom: 0;
+  }
+}

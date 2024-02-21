@@ -1,0 +1,50 @@
+@media screen and (min-width: 0px) and (max-width: 875px) {
+  .class-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    position: relative;
+    top: 40px;
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  .class-catalog-main {
+    height: 1500px;
+  }
+}
+
+@media screen and (min-width: 876px) and (max-width: 1649px) {
+  .class-card {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 10%;
+
+    margin-bottom: 40px;
+    float: left;
+  }
+  .class-catalog-main {
+    width: 100%;
+    height: 800px;
+  }
+}
+
+@media screen and (min-width: 1650px) and (max-width: 9000px) {
+  .class-card {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  .class-catalog-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.class-catalog-box {
+  width: 100%;
+  height: calc(max-content + 100px);
+  background-color: #555;
+}

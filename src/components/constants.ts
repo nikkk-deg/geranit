@@ -1,7 +1,7 @@
 export const CLASS_MAIN_CONTENT = "main-content";
 export const CLASS_FOOTER = "footer-class";
 export const TXT_FOOTER1 = "2024";
-export const TXT_FOOTER2 = "ГЕРАНИТ";
+export const TXT_FOOTER2 = "2024";
 export const CLASS_FOOTER_TITLE = "class-footer-title";
 export const CLASS_SLOGAN = "class-slogan";
 export const CLASS_SLOGAN_TITLE1 = "class-slogan-title1";
@@ -25,3 +25,15 @@ export const CHIPS_TITLE4 = "Фиксированные цены в рублях
 export const CHIPS_TITLE5 = "Отличные условия для сотрудничества";
 export const CHIPS_TITLE6 = "Предсказуемые сроки производства";
 export const CLASS_CHIPS_MAIN = "class-chips-main";
+
+export const FOOTER_TITLE_TXT = " ООО ГЕРАНИТ";
+export const FOOTER_CALL = "Позвонить нам:";
+export const FOOTER_CALL_TXT = "+7(499)112-43-72";
+export const FOOTER_WRITE = "Написать нам:";
+export const FOOTER_WRITE_TXT = "info@geranit.ru";
+
+export const CLASS_FOOTER_TITLE_TXT = "class-footer-title-txt";
+export const CLASS_FOOTER_CALL = "class-footer-call";
+export const CLASS_FOOTER_CALL_TXT = "class-footer-call-txt";
+export const CLASS_FOOTER_WRITE = "class-footer-write";
+export const CLASS_CLASS_FOOTER_TITLE_TXT = "class-class-footer-title-txt";
