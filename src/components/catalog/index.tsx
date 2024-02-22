@@ -16,27 +16,31 @@ import {
 
 export default function Catalog() {
   return (
-    <Box className={CLASS_CATALOG_BOX}>
+    <Box id={"catalog"} className={CLASS_CATALOG_BOX}>
       <Box className={CLASS_CATALOG_MAIN}>
         <ProductCard
           img={imgLink1}
           title={titleCard1}
           overiview={overiviewCard1}
+          link={`products/${titleCard1}`}
         />
         <ProductCard
           img={imgLink1}
           title={titleCard2}
           overiview={overiviewCard2}
+          link={`products/${titleCard2}`}
         />
         <ProductCard
           img={imgLink1}
           title={titleCard3}
           overiview={overiviewCard3}
+          link={`products/${titleCard3}`}
         />
         <ProductCard
           img={imgLink1}
           title={titleCard4}
           overiview={overiviewCard4}
+          link={`products/${titleCard4}`}
         />
       </Box>
     </Box>

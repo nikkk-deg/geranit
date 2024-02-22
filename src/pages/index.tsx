@@ -5,7 +5,7 @@ import Catalog from "../components/catalog/index.tsx";
 
 export default function HomePage() {
   return (
-    <Box>
+    <Box sx={{ minHeight: "100%" }}>
       <Slogan />
       <Chips />
       <Catalog />

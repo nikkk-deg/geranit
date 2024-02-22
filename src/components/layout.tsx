@@ -8,7 +8,7 @@ export default function Layout() {
   return (
     <>
       <Header />
-      <Box className={CLASS_MAIN_CONTENT}>
+      <Box id={CLASS_MAIN_CONTENT}>
         <Outlet />
       </Box>
       <Footer />
