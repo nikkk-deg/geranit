@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) and (max-width: 875px) {
+/* @media screen and (min-width: 0px) and (max-width: 875px) {
   .class-card {
     margin-left: auto;
     margin-right: auto;
@@ -38,11 +38,19 @@
     margin-left: auto;
     margin-right: auto;
     width: max-content;
-    display: flex;
-    flex-direction: row;
-  }
+    /* height: 1000px; */
+/* }
+} */
+.class-card {
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-bottom: 40px;
 }
 
+.class-catalog-main {
+  width: 100%;
+  height: max-content;
+}
 .class-catalog-box {
   width: 100%;
   height: calc(max-content + 100px);

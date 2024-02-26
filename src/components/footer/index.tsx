@@ -1,29 +1,28 @@
 import { Box } from "@mui/material";
-import {
-  CLASS_CLASS_FOOTER_TITLE_TXT,
-  CLASS_FOOTER,
-  CLASS_FOOTER_CALL,
-  CLASS_FOOTER_CALL_TXT,
-  CLASS_FOOTER_TITLE,
-  CLASS_FOOTER_TITLE_TXT,
-  CLASS_FOOTER_WRITE,
-  FOOTER_CALL,
-  FOOTER_CALL_TXT,
-  FOOTER_TITLE_TXT,
-  FOOTER_WRITE,
-  FOOTER_WRITE_TXT,
-  TXT_FOOTER2,
-} from "../constants";
 
 export default function Footer() {
   return (
-    <footer className={CLASS_FOOTER}>
-      <Box className={CLASS_FOOTER_TITLE}>{TXT_FOOTER2}</Box>
-      <Box className={CLASS_FOOTER_TITLE_TXT}>{FOOTER_TITLE_TXT}</Box>
-      <Box className={CLASS_FOOTER_CALL}>{FOOTER_CALL}</Box>
-      <Box className={CLASS_FOOTER_CALL_TXT}>{FOOTER_CALL_TXT}</Box>
-      <Box className={CLASS_FOOTER_WRITE}>{FOOTER_WRITE}</Box>
-      <Box className={CLASS_CLASS_FOOTER_TITLE_TXT}>{FOOTER_WRITE_TXT}</Box>
+    <footer className="mt-auto footer bg-secondary">
+      <Box sx={{ paddingTop: "20px" }} className="container">
+        <div className="row">
+          <div className="col-md-3">
+            <h2>ООО ГЕРАНИТ</h2>
+          </div>
+
+          <div className="col-md-3">
+            <h5>Наши контакты</h5>
+            <ul className="list-unstyled">
+              <li>Email: info@geranit.ru</li>
+              <li>Тел. : +7(499)112-43-72</li>
+            </ul>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-4">
+            <p>© 2024 Геранит. Все права защищены.</p>
+          </div>
+        </div>
+      </Box>
     </footer>
   );
 }

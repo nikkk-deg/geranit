@@ -5,70 +5,86 @@ import WarehouseIcon from "@mui/icons-material/Warehouse";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import CurrencyRubleIcon from "@mui/icons-material/CurrencyRuble";
-import {
-  CHIPS_TITLE1,
-  CHIPS_TITLE2,
-  CHIPS_TITLE3,
-  CHIPS_TITLE4,
-  CHIPS_TITLE5,
-  CHIPS_TITLE6,
-  CLASS_CHIPS1,
-  CLASS_CHIPS2,
-  CLASS_CHIPS_BOX1,
-  CLASS_CHIPS_BOX2,
-  CLASS_CHIPS_TITLE,
-  CLASS_ICON_CHIPS,
-  CLASS_CHIPS_MAIN,
-} from "../constants";
 
 export default function Chips() {
   return (
-    <Box className={CLASS_CHIPS_MAIN}>
-      <Box className={CLASS_CHIPS1}>
-        <Box className={CLASS_CHIPS_BOX1}>
-          <Box className={CLASS_CHIPS_TITLE}>{CHIPS_TITLE1}</Box>
-          <LightbulbIcon
-            className={CLASS_ICON_CHIPS}
-            fontSize="large"
-          ></LightbulbIcon>
-        </Box>
-        <Box className={CLASS_CHIPS_BOX1}>
-          <Box className={CLASS_CHIPS_TITLE}>{CHIPS_TITLE2}</Box>
-          <SupportAgentIcon
-            className={CLASS_ICON_CHIPS}
-            fontSize="large"
-          ></SupportAgentIcon>
-        </Box>
-        <Box className={CLASS_CHIPS_BOX1}>
-          <Box className={CLASS_CHIPS_TITLE}>{CHIPS_TITLE3}</Box>
-          <WarehouseIcon
-            className={CLASS_ICON_CHIPS}
-            fontSize="large"
-          ></WarehouseIcon>
+    <Box className="cards-conteiner">
+      <Box
+        component={"span"}
+        sx={{ display: "flex-block", marginTop: "20px" }}
+        className="iwt"
+      >
+        <CurrencyRubleIcon fontSize="large" sx={{ marginTop: "-15px" }} />
+        <Box
+          component="span"
+          sx={{ fontSize: "x-large", marginTop: "30px", marginLeft: "15px" }}
+        >
+          Фиксированные цены в рублях
         </Box>
       </Box>
-
-      <Box className={CLASS_CHIPS2}>
-        <Box className={CLASS_CHIPS_BOX2}>
-          <Box className={CLASS_CHIPS_TITLE}>{CHIPS_TITLE4}</Box>
-          <CurrencyRubleIcon
-            className={CLASS_ICON_CHIPS}
-            fontSize="large"
-          ></CurrencyRubleIcon>
+      <Box
+        component={"span"}
+        sx={{ display: "block", marginTop: "20px" }}
+        className="iwt"
+      >
+        <ThumbUpIcon fontSize="large" sx={{ marginTop: "-15px" }} />
+        <Box
+          component="span"
+          sx={{ fontSize: "x-large", marginTop: "30px", marginLeft: "15px" }}
+        >
+          Отличные условия для сотрудничетсва
         </Box>
-        <Box className={CLASS_CHIPS_BOX2}>
-          <Box className={CLASS_CHIPS_TITLE}>{CHIPS_TITLE5}</Box>
-          <ThumbUpIcon
-            className={CLASS_ICON_CHIPS}
-            fontSize="large"
-          ></ThumbUpIcon>
+      </Box>
+      <Box
+        component={"span"}
+        sx={{ display: "block", marginTop: "20px" }}
+        className="iwt"
+      >
+        <AccessTimeIcon fontSize="large" sx={{ marginTop: "-15px" }} />
+        <Box
+          component="span"
+          sx={{ fontSize: "x-large", marginTop: "30px", marginLeft: "15px" }}
+        >
+          Предсказуемые сроки производства
         </Box>
-        <Box className={CLASS_CHIPS_BOX2}>
-          <Box className={CLASS_CHIPS_TITLE}>{CHIPS_TITLE6}</Box>
-          <AccessTimeIcon
-            className={CLASS_ICON_CHIPS}
-            fontSize="large"
-          ></AccessTimeIcon>
+      </Box>
+      <Box
+        component={"span"}
+        sx={{ display: "block", marginTop: "20px" }}
+        className="iwt"
+      >
+        <LightbulbIcon fontSize="large" sx={{ marginTop: "-15px" }} />
+        <Box
+          component="span"
+          sx={{ fontSize: "x-large", marginTop: "30px", marginLeft: "15px" }}
+        >
+          Российское производство
+        </Box>
+      </Box>
+      <Box
+        component={"span"}
+        sx={{ display: "block", marginTop: "20px" }}
+        className="iwt"
+      >
+        <SupportAgentIcon fontSize="large" sx={{ marginTop: "-15px" }} />
+        <Box
+          component="span"
+          sx={{ fontSize: "x-large", marginTop: "30px", marginLeft: "15px" }}
+        >
+          Поддержка клиентов
+        </Box>
+      </Box>
+      <Box
+        component={"span"}
+        sx={{ display: "block", marginTop: "20px" }}
+        className="iwt"
+      >
+        <WarehouseIcon fontSize="large" sx={{ marginTop: "-15px" }} />
+        <Box
+          component="span"
+          sx={{ fontSize: "x-large", marginTop: "30px", marginLeft: "15px" }}
+        >
+          Свой обширный склад
         </Box>
       </Box>
     </Box>

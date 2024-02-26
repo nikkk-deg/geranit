@@ -7,10 +7,68 @@ a:hover {
   color: #777;
 }
 
-footer {
-  color: aliceblue;
-  background: url(/img/footerBack2.png) no-repeat center center fixed;
+li {
+  margin-left: 20px;
+}
+
+.cards-conteiner {
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.background-main {
+  background: url(/img/background.jpg) no-repeat center center fixed;
   background-size: cover;
+  position: relative;
+  margin-top: 140px;
   width: 100%;
-  height: 200px;
+  height: 400px;
+}
+
+.background-title1,
+.background-title2 {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  word-wrap: break-word;
+  width: max-content;
+  margin-top: 40px;
+  color: #eee;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1400px) {
+  .background-title1,
+  .background-title2 {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    word-wrap: break-word;
+    width: max-content;
+    margin-top: 40px;
+    color: #eee;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .background-main {
+    background: url(/img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    margin-top: 140px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+  }
+  .background-title1 {
+    display: none;
+  }
+
+  .background-title2 {
+  }
 }
