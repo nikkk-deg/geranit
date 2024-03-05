@@ -19,12 +19,23 @@ export default function ProductCard({
   link,
 }: ProductCard) {
   return (
-    <Card className={CLASS_CARD} sx={{ maxWidth: 345 }}>
+    <Card className={CLASS_CARD}         
+    sx={{
+      color: 'black',
+      height: '500px',
+      minWidth: '28rem',
+      maxWidth: '28rem',
+      display: 'flex-block',
+      border: '2px solid #eee',
+      backgroundColor: '#eee',
+      borderRadius: '10px',
+      margin: '20px 20px 20px 20px',
+    }}>
       <NavLink to={link}>
         <CardActionArea>
           <CardMedia
             component="img"
-            height="140"
+            height="300"
             image={img}
             alt="green iguana"
           />

@@ -6,6 +6,10 @@ export const titleCard1 = "Клиентские устройства";
 export const titleCard2 = "Серверы";
 export const titleCard3 = "Системы хранения данных";
 export const titleCard4 = "Активное сетевое оборудование";
+export const linkCard1 = "devices";
+export const linkCard2 = "servers";
+export const linkCard3 = "nas";
+export const linkCard4 = "active-services";
 export const overiviewCard1 =
   "Коммутаторы доступа SOFINET полностью соответствуют запросам современного рынка и способны обеспечить высокое качество и эффективность работы сети";
 export const overiviewCard2 =

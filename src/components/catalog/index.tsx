@@ -1,8 +1,11 @@
 import { Box } from "@mui/material";
 import ProductCard from "./card";
 import {
-  CLASS_CATALOG_MAIN,
   imgLink1,
+  linkCard1,
+  linkCard2,
+  linkCard3,
+  linkCard4,
   overiviewCard1,
   overiviewCard2,
   overiviewCard3,
@@ -11,38 +14,35 @@ import {
   titleCard2,
   titleCard3,
   titleCard4,
-  CLASS_CATALOG_BOX,
 } from "./constants";
 
 export default function Catalog() {
   return (
-    <Box id={"catalog"} className={CLASS_CATALOG_BOX}>
-      <Box className={CLASS_CATALOG_MAIN}>
-        <ProductCard
-          img={imgLink1}
-          title={titleCard1}
-          overiview={overiviewCard1}
-          link={`products/${titleCard1}`}
-        />
-        <ProductCard
-          img={imgLink1}
-          title={titleCard2}
-          overiview={overiviewCard2}
-          link={`products/${titleCard2}`}
-        />
-        <ProductCard
-          img={imgLink1}
-          title={titleCard3}
-          overiview={overiviewCard3}
-          link={`products/${titleCard3}`}
-        />
-        <ProductCard
-          img={imgLink1}
-          title={titleCard4}
-          overiview={overiviewCard4}
-          link={`products/${titleCard4}`}
-        />
-      </Box>
+    <Box className={"cards-conteiner-box"}>
+      <ProductCard
+        img={imgLink1}
+        title={titleCard1}
+        overiview={overiviewCard1}
+        link={`products/${linkCard1}`}
+      />
+      <ProductCard
+        img={imgLink1}
+        title={titleCard2}
+        overiview={overiviewCard2}
+        link={`products/${linkCard2}`}
+      />
+      <ProductCard
+        img={imgLink1}
+        title={titleCard3}
+        overiview={overiviewCard3}
+        link={`products/${linkCard3}`}
+      />
+      <ProductCard
+        img={imgLink1}
+        title={titleCard4}
+        overiview={overiviewCard4}
+        link={`products/${linkCard4}`}
+      />
     </Box>
   );
 }
