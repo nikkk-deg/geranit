@@ -46,13 +46,14 @@ export default function ProductsCatalog() {
     case linkCard3: {
       return (
         <Box
-          sx={{
-            borderRadius: "10px",
-            width: "800px",
-            margin: "180px auto 100px  auto",
-            height: "720px",
-            fontSize: "xx-large",
-          }}
+          className="nas-box"
+          // sx={{
+          //   borderRadius: "10px",
+          //   width: "800px",
+          //   margin: "180px auto 100px  auto",
+          //   height: "720px",
+          //   fontSize: "xx-large",
+          // }}
         >
           <NAS />
         </Box>

@@ -78,6 +78,18 @@ a:hover {
   text-decoration: none !important;
 }
 
+.nas-box {
+  width: 800px;
+  border-radius: 10px;
+  margin: 180px auto 100px auto;
+  height: 720px;
+  font-size: xx-large;
+}
+.NAS-dobro-txt {
+  margin: 5px 0 40px 0;
+  position: relative;
+  left: 90px;
+}
 @media screen and (min-width: 501px) and (max-width: 1400px) {
   .background-title1,
   .background-title2 {
@@ -107,5 +119,25 @@ a:hover {
   }
 
   .background-title2 {
+    position: relative;
+    top: 110px;
+    left: -90px;
+  }
+  /* .NAS-page {
+    width: 100px;
+  } */
+
+  .nas-box {
+    width: 100%;
+    border-radius: 10px;
+    margin: 180px auto 100px auto;
+    height: 720px;
+    font-size: xx-large;
+  }
+  .d-block {
+    width: 100%;
+  }
+  .NAS-dobro-txt {
+    left: -10px;
   }
 }

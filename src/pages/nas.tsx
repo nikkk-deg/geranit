@@ -8,13 +8,14 @@ export default function NAS() {
         sx={{
           fontSize: "xx-large",
           width: "max-content",
+          maxWidth: "100%",
           margin: "15px auto 0 auto",
         }}
       >
         Системы хранения данных ГЕРАНИТ
       </Box>
       <div
-        className="card"
+        className="card card-box"
         style={{
           width: "100%",
           padding: "15px",
@@ -23,13 +24,14 @@ export default function NAS() {
           borderRadius: "15px",
         }}
       >
-        <Box sx={{ width: "450px", margin: "0 auto 0 auto" }}>
+        <Box sx={{ width: "400px", margin: "0 auto 0 auto" }}>
           <Box
-            sx={{
-              margin: "5px 0 40px 0",
-              position: "relative",
-              left: "-90px",
-            }}
+            className="NAS-dobro-txt"
+            // sx={{
+            //   margin: "5px 0 40px 0",
+            //   position: "relative",
+            //   left: "-90px",
+            // }}
           >
             CХД "Добро"
           </Box>
