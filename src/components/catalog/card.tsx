@@ -19,30 +19,35 @@ export default function ProductCard({
   link,
 }: ProductCard) {
   return (
-    <Card className={CLASS_CARD}         
-    sx={{
-      color: 'black',
-      height: '500px',
-      minWidth: '28rem',
-      maxWidth: '28rem',
-      display: 'flex-block',
-      border: '2px solid #eee',
-      backgroundColor: '#eee',
-      borderRadius: '10px',
-      margin: '20px 20px 20px 20px',
-    }}>
+    <Card
+      className={CLASS_CARD}
+      sx={{
+        color: "black",
+        height: "500px",
+        minWidth: "28rem",
+        maxWidth: "28rem",
+        display: "flex-block",
+        border: "2px solid #eee",
+        backgroundColor: "#eee",
+        borderRadius: "10px",
+        margin: "20px 20px 20px 20px",
+      }}
+    >
       <NavLink to={link}>
         <CardActionArea>
           <CardMedia
+            // sx={{ width: "2  00px" }}
+            // width={'200px'}
             component="img"
             height="300"
             image={img}
-            alt="green iguana"
+            alt="Продукция ГЕРАНИТ"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               {title}
             </Typography>
+
             <Typography variant="body2" color="text.secondary">
               {overiview}
             </Typography>

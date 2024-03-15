@@ -1,6 +1,11 @@
+import { Box } from "@mui/material";
+
 export default function TechDobro() {
   return (
-    <table className="stats">
+    <table
+      className="stats"
+      style={{ border: "1px solid #999", borderRadius: "15px" }}
+    >
       <tbody>
         <tr className="cap" style={{ display: "none" }}>
           <td colSpan={3}>Произодитель</td>
@@ -13,7 +18,17 @@ export default function TechDobro() {
           <td className="right" />
         </tr>
         <tr className="cap">
-          <td colSpan={3}>Общие характеристики</td>
+          <td colSpan={3}>
+            <Box
+              sx={{
+                width: "190px",
+                fontWeight: "bold",
+                margin: "0 auto 0 auto",
+              }}
+            >
+              Общие характеристики
+            </Box>
+          </td>
         </tr>
         <tr className="gray">
           <td className="name">
@@ -44,7 +59,18 @@ export default function TechDobro() {
           <td className="right" />
         </tr>
         <tr className="cap">
-          <td colSpan={3}>Процессор</td>
+          <td colSpan={3}>
+            {" "}
+            <Box
+              sx={{
+                width: "100px",
+                fontWeight: "bold",
+                margin: "0 auto 0 auto",
+              }}
+            >
+              Процессор
+            </Box>
+          </td>
         </tr>
         <tr className="gray">
           <td className="name">
@@ -62,13 +88,13 @@ export default function TechDobro() {
         </tr>
 
         <tr>
-          <td className="name">
+          <td className="gray">
             <span>Кэш память </span>
           </td>
-          <td>18 MB</td>
+          <td className="gray">18 MB</td>
           <td className="right" />
         </tr>
-        <tr className="gray">
+        <tr>
           <td className="name">
             <span>Механизм аппаратного шифрования </span>
           </td>
@@ -76,7 +102,18 @@ export default function TechDobro() {
           <td className="right" />
         </tr>
         <tr className="cap">
-          <td colSpan={3}>Память</td>
+          <td colSpan={3}>
+            {" "}
+            <Box
+              sx={{
+                width: "70px",
+                fontWeight: "bold",
+                margin: "0 auto 0 auto",
+              }}
+            >
+              Память
+            </Box>
+          </td>
         </tr>
         <tr className="gray">
           <td className="name">
@@ -113,7 +150,18 @@ export default function TechDobro() {
           <td className="right" />
         </tr>
         <tr className="cap">
-          <td colSpan={3}>Отсеки под жесткие диски (HDD/SSD/SAS)</td>
+          <td colSpan={3}>
+            {" "}
+            <Box
+              sx={{
+                width: "340px",
+                fontWeight: "bold",
+                margin: "0 auto 0 auto",
+              }}
+            >
+              Отсеки под жесткие диски (HDD/SSD/SAS)
+            </Box>
+          </td>
         </tr>
         <tr className="gray">
           <td className="name">
@@ -185,7 +233,18 @@ export default function TechDobro() {
           <td className="right" />
         </tr>
         <tr className="cap">
-          <td colSpan={3}>Сетевой интерфейс</td>
+          <td colSpan={3}>
+            {" "}
+            <Box
+              sx={{
+                width: "160px",
+                fontWeight: "bold",
+                margin: "0 auto 0 auto",
+              }}
+            >
+              Сетевой интерфейс
+            </Box>
+          </td>
         </tr>
         <tr className="gray">
           <td className="name">
@@ -296,7 +355,18 @@ export default function TechDobro() {
           <td className="right" />
         </tr>
         <tr className="cap">
-          <td colSpan={3}>Дополнительные характеристики</td>
+          <td colSpan={3}>
+            {" "}
+            <Box
+              sx={{
+                width: "270px",
+                fontWeight: "bold",
+                margin: "0 auto 0 auto",
+              }}
+            >
+              Дополнительные характеристики
+            </Box>
+          </td>
         </tr>
         <tr className="gray">
           <td className="name">
@@ -330,7 +400,18 @@ export default function TechDobro() {
           <td className="right" />
         </tr>
         <tr className="cap">
-          <td colSpan={3}>Программные возможности</td>
+          <td colSpan={3}>
+            {" "}
+            <Box
+              sx={{
+                width: "230px",
+                fontWeight: "bold",
+                margin: "0 auto 0 auto",
+              }}
+            >
+              Программные возможности
+            </Box>
+          </td>
         </tr>
         <tr className="gray">
           <td className="name">
@@ -452,7 +533,18 @@ export default function TechDobro() {
           <td className="right" />
         </tr>
         <tr className="cap">
-          <td colSpan={3}>Внешние характеристики</td>
+          <td colSpan={3}>
+            {" "}
+            <Box
+              sx={{
+                width: "200px",
+                fontWeight: "bold",
+                margin: "0 auto 0 auto",
+              }}
+            >
+              Внешние характеристики
+            </Box>
+          </td>
         </tr>
         <tr className="gray">
           <td className="name">

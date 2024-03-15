@@ -20,8 +20,9 @@ export default function ProductsCatalog() {
         <Box
           sx={{
             width: "max-content",
-            margin: "150px auto 0 auto",
-            height: "100vh",
+            margin: "250px auto 0 auto",
+            height: "70vh",
+            fontSize: "xx-large",
           }}
         >
           Нет в продаже
@@ -46,9 +47,10 @@ export default function ProductsCatalog() {
       return (
         <Box
           sx={{
-            width: "max-content",
-            margin: "250px auto 0 auto",
-            height: "70vh",
+            borderRadius: "10px",
+            width: "800px",
+            margin: "180px auto 100px  auto",
+            height: "720px",
             fontSize: "xx-large",
           }}
         >

@@ -11,7 +11,7 @@ export default function Footer() {
 
           <div className="col-md-3">
             <h5>Наши контакты</h5>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled" id="contacts">
               <li>Email: info@geranit.ru</li>
               <li>Тел. : +7(499)112-43-72</li>
             </ul>

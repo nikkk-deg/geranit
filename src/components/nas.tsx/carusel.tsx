@@ -4,8 +4,9 @@ export default function CaruselDobro() {
   return (
     <Box
       sx={{
+        // maxWidth: "500px",
         width: "100%",
-        display: "-ms-flexbox",
+        display: "flex",
         justifyContent: "center",
         margin: "150px 0 0 0 ",
       }}
@@ -28,30 +29,20 @@ export default function CaruselDobro() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              className="d-block w-200"
+              className="d-block w-400"
               src="/img/nas1.jpg"
               alt="First slide"
+              height={"400px"}
+              width={"600px"}
             />
           </div>
           <div className="carousel-item">
             <img
-              className="d-block w-200"
+              className="d-block w-400"
               src="/img/nas2.jpg"
               alt="Second slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-200"
-              src="/img/nas3.jpg"
-              alt="Third slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-200"
-              src="/img/nas4.jpg"
-              alt="Third slide"
+              width={"600px"}
+              height={"400px"}
             />
           </div>
         </div>

@@ -2,6 +2,9 @@ import { Box } from "@mui/material";
 import ProductCard from "./card";
 import {
   imgLink1,
+  imgLink2,
+  imgLink3,
+  imgLink4,
   linkCard1,
   linkCard2,
   linkCard3,
@@ -18,9 +21,13 @@ import {
 
 export default function Catalog() {
   return (
-    <Box className={"cards-conteiner-box"}>
+    <Box
+      className={"cards-conteiner-box"}
+      id="catalog"
+      sx={{ textDecoration: "none" }}
+    >
       <ProductCard
-        img={imgLink1}
+        img={imgLink4}
         title={titleCard1}
         overiview={overiviewCard1}
         link={`products/${linkCard1}`}
@@ -32,13 +39,13 @@ export default function Catalog() {
         link={`products/${linkCard2}`}
       />
       <ProductCard
-        img={imgLink1}
+        img={imgLink3}
         title={titleCard3}
         overiview={overiviewCard3}
         link={`products/${linkCard3}`}
       />
       <ProductCard
-        img={imgLink1}
+        img={imgLink2}
         title={titleCard4}
         overiview={overiviewCard4}
         link={`products/${linkCard4}`}

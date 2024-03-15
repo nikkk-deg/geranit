@@ -18,16 +18,17 @@ import Search from "./search";
 import Login from "./login";
 import CatalogTitle from "./catalod-title";
 import { HashLink } from "react-router-hash-link";
+import { FaGripLines } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <div style={{ zIndex: "100000000" }} className="container">
-      <nav className="navbar navbar-expand-md fixed-top bg-body-tertiary">
+    <div style={{ zIndex: "100000000" }} className="container" id="header">
+      <nav className="navbar navbar-expand-md fixed-top bg-white">
         <Box className="container-fluid">
           <Box sx={{ marginLeft: "25px" }}>
             <a className="navbar-brand">
               <NavLink to={"/"}>
-                <img src="/img/logo11.png" width={"100px"} />
+                <img src="/img/logo11.png" width={"80px"} />
               </NavLink>
             </a>
           </Box>
@@ -40,7 +41,9 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon">
+              <FaGripLines />
+            </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <Box
@@ -71,11 +74,14 @@ export default function Header() {
                   Поддержка
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-disabled="true">
-                  Контакты
+
+              <Box sx={{ textDecoration: "none" }}>
+                <a className="nav-link " aria-current="page">
+                  <li className="nav-item">
+                    <HashLink to={"/#contacts"}>Контакты</HashLink>
+                  </li>
                 </a>
-              </li>
+              </Box>
               <li className="nav-item"></li>
             </Box>
           </div>
